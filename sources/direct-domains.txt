@@ -40,3 +40,4 @@ deepseek.com
 quark.cn
 minimaxi.com
 genun.tech
+900cha.com
