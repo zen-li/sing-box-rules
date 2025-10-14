@@ -1,0 +1,20 @@
+# Direct connection IPs - Private networks and China-specific
+# Private networks
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+127.0.0.0/8
+100.64.0.0/10
+169.254.0.0/16
+224.0.0.0/4
+240.0.0.0/4
+
+# IPv6 private networks (simplified for compatibility)
+# ::1/128
+# fc00::/7
+# fe80::/10
+
+# China-specific IPs
+18.141.126.248/32
+52.76.224.24/32
+23.106.133.57/32

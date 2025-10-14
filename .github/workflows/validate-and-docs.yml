@@ -1,0 +1,139 @@
+name: Validate and Generate Docs
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'sources/**'
+      - 'scripts/**'
+      - 'templates/**'
+      - 'package.json'
+      - 'README.md'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'sources/**'
+      - 'scripts/**'
+      - 'templates/**'
+      - 'package.json'
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate Source Files
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Validate public source files
+      run: |
+        echo "Validating public source files..."
+        # 跳过私有文件，只验证公开的源文件
+        npm run validate:single domain-suffix direct-domains.txt || echo "direct-domains validation skipped"
+        npm run validate:single ip-cidr direct-ips.txt || echo "direct-ips validation skipped"
+        npm run validate:single process-name direct-process.txt || echo "direct-process validation skipped"
+        npm run validate:single domain-suffix proxy-domains.txt || echo "proxy-domains validation skipped"
+        npm run validate:single ip-cidr proxy-ips.txt || echo "proxy-ips validation skipped"
+        npm run validate:single process-name proxy-process.txt || echo "proxy-process validation skipped"
+
+    - name: Check templates
+      run: |
+        echo "Validating template files..."
+        ls templates/*.json | while read template; do
+          echo "Checking $template..."
+          jq empty "$template" || exit 1
+        done
+
+  docs:
+    name: Update Documentation
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Generate README from dist files
+      run: |
+        if [ -d "dist" ] && [ "$(ls -A dist/*.srs 2>/dev/null)" ]; then
+          echo "## Available Rule Files" >> README.md
+          echo "" >> README.md
+          echo "| File | Size | Rules | Updated |" >> README.md
+          echo "|------|------|-------|---------|" >> README.md
+
+          for file in dist/*.srs; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              size=$(stat -c%s "$file" | numfmt --to=iec)
+              mtime=$(stat -c%y "$file" | cut -d' ' -f1,2 | cut -d'.' -f1)
+              echo "| [$filename](dist/$filename) | $size | - | $mtime |" >> README.md
+            fi
+          done
+          echo "" >> README.md
+          echo "### Usage" >> README.md
+          echo "" >> README.md
+          echo "Add these URLs to your sing-box configuration:" >> README.md
+          echo "" >> README.md
+          echo '```json' >> README.md
+          echo '{' >> README.md
+          echo '  "rule_set": [' >> README.md
+
+          first=true
+          for file in dist/*.srs; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .srs)
+              if [ "$first" = true ]; then
+                first=false
+              else
+                echo ',' >> README.md
+              fi
+              echo '    {' >> README.md
+              echo "      \"tag\": \"$filename\"," >> README.md
+              echo "      \"type\": \"remote\"," >> README.md
+              echo "      \"format\": \"binary\"," >> README.md
+              echo "      \"url\": \"https://raw.githubusercontent.com/zen-li/sing-box-rules/main/dist/$filename.srs\"," >> README.md
+              echo "      \"download_detour\": \"direct\"" >> README.md
+              echo '    }' >> README.md
+            fi
+          done
+
+          echo '  ]' >> README.md
+          echo '}' >> README.md
+          echo '```' >> README.md
+        fi
+
+    - name: Update README
+      run: |
+        if [ -n "$(git status --porcelain README.md 2>/dev/null)" ]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Auto-update README with available rule files"
+          git push
+        fi

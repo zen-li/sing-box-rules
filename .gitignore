@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+.DS_Store
+sources/proxy-domains-private.txt
+dist/build-report.json

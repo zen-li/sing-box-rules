@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "ip_cidr": []
+  },
+  "description": "IP CIDR rules for sing-box",
+  "type": "ip_cidr"
+}

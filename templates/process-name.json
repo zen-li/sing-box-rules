@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "process_name": []
+  },
+  "description": "Process name rules for sing-box",
+  "type": "process_name"
+}

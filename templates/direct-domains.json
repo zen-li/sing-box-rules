@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "domain_suffix": []
+  },
+  "description": "Direct connection domain rules - Chinese services and local networks",
+  "type": "domain_suffix"
+}

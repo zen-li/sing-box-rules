@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "domain_suffix": []
+  },
+  "description": "Domain suffix rules for sing-box",
+  "type": "domain_suffix"
+}

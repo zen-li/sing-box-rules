@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "ip_cidr": []
+  },
+  "description": "Proxy connection IP CIDR rules - International services and CDN",
+  "type": "ip_cidr"
+}

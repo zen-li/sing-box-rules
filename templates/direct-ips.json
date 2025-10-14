@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "ip_cidr": []
+  },
+  "description": "Direct connection IP CIDR rules - Private networks and China-specific",
+  "type": "ip_cidr"
+}

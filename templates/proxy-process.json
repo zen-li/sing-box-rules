@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "process_name": []
+  },
+  "description": "Proxy connection process name rules - International applications",
+  "type": "process_name"
+}

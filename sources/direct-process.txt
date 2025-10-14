@@ -1,0 +1,9 @@
+# Direct connection processes - Chinese applications
+TencentMeeting
+NemoDesktop
+ToDesk
+ToDesk_Service
+WeChat
+Tailscale
+wireguard-go
+Tunnelblick

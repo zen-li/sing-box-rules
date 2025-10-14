@@ -1,0 +1,41 @@
+{
+  "name": "sing-box-rules",
+  "version": "1.0.0",
+  "description": "Sing-box custom rules repository",
+  "main": "scripts/build-rules.js",
+  "scripts": {
+    "build": "node scripts/build-rules.js",
+    "build:single": "node scripts/build-rules.js single",
+    "validate": "node scripts/validate-rules.js",
+    "validate:single": "node scripts/validate-rules.js",
+    "generate-metadata": "node scripts/generate-metadata.js",
+    "metadata": "npm run generate-metadata",
+    "dev": "npm run build && npm run validate",
+    "test": "npm run validate",
+    "clean": "rm -rf dist/*",
+    "build:full": "npm run clean && npm run build && npm run metadata && npm run validate",
+    "publish:local": "npm run build:full && echo 'Files ready for manual commit and push to GitHub'",
+    "publish": "./scripts/publish.sh",
+    "status": "ls -la dist/ && echo 'Total files:' && ls dist/*.srs 2>/dev/null | wc -l"
+  },
+  "keywords": [
+    "sing-box",
+    "rules",
+    "proxy",
+    "network"
+  ],
+  "author": "zen",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zen-li/sing-box-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zen-li/sing-box-rules/issues"
+  },
+  "homepage": "https://github.com/zen-li/sing-box-rules#readme"
+}
