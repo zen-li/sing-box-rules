@@ -1,0 +1,112 @@
+{
+  "format": "sing-box-rule-set-manifest",
+  "version": "1.0",
+  "generated": "2025-10-15T08:35:47.774Z",
+  "rules": [
+    {
+      "name": "direct-domains",
+      "type": "domain-suffix",
+      "file": "direct-domains.srs",
+      "size": 572,
+      "rules": {
+        "total": 43,
+        "valid": 43,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "5067a2ed",
+      "lastModified": "2025-10-15T08:32:54.872Z",
+      "description": "Direct connection domain rules"
+    },
+    {
+      "name": "direct-ips",
+      "type": "ip-cidr",
+      "file": "direct-ips.srs",
+      "size": 347,
+      "rules": {
+        "total": 11,
+        "valid": 11,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "607ee306",
+      "lastModified": "2025-10-14T12:20:32.378Z",
+      "description": "Direct connection IP CIDR rules"
+    },
+    {
+      "name": "direct-process",
+      "type": "process-name",
+      "file": "direct-process.srs",
+      "size": 143,
+      "rules": {
+        "total": 8,
+        "valid": 8,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "62c92a4f",
+      "lastModified": "2025-10-14T12:15:33.078Z",
+      "description": "Direct connection process name rules"
+    },
+    {
+      "name": "proxy-domains",
+      "type": "domain-suffix",
+      "file": "proxy-domains.srs",
+      "size": 4758,
+      "rules": {
+        "total": 358,
+        "valid": 358,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "570c2de8",
+      "lastModified": "2025-10-14T12:20:51.095Z",
+      "description": "Proxy connection domain rules"
+    },
+    {
+      "name": "proxy-domains-private",
+      "type": "domain-suffix",
+      "file": "proxy-domains-private.srs",
+      "size": 2766,
+      "rules": {
+        "total": 215,
+        "valid": 215,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "61ff0549",
+      "lastModified": "2025-10-14T12:34:59.443Z",
+      "description": "Private proxy domain rules"
+    },
+    {
+      "name": "proxy-ips",
+      "type": "ip-cidr",
+      "file": "proxy-ips.srs",
+      "size": 480,
+      "rules": {
+        "total": 6,
+        "valid": 6,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "4e6f2d58",
+      "lastModified": "2025-10-14T12:20:35.989Z",
+      "description": "Proxy connection IP CIDR rules"
+    },
+    {
+      "name": "proxy-process",
+      "type": "process-name",
+      "file": "proxy-process.srs",
+      "size": 96,
+      "rules": {
+        "total": 5,
+        "valid": 5,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "7588403",
+      "lastModified": "2025-10-14T12:15:35.526Z",
+      "description": "Proxy connection process name rules"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "buildTime": "2025-10-15T08:35:47.774Z",
+  "gitCommit": "0bef86a76e4f05b3ba6aa8c4773fbb7e01cdd690",
+  "gitBranch": "main",
+  "rulesSummary": {
+    "totalSourceFiles": 7,
+    "validSourceFiles": 7,
+    "totalRules": 646,
+    "validRules": 646,
+    "builtFiles": 7
+  }
+}

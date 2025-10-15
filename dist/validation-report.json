@@ -1,0 +1,123 @@
+{
+  "sources": [
+    {
+      "file": "direct-domains.txt",
+      "type": "domain-suffix",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 43,
+        "valid": 43,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "direct-ips.txt",
+      "type": "ip-cidr",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 11,
+        "valid": 11,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "direct-process.txt",
+      "type": "process-name",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 8,
+        "valid": 8,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "proxy-domains.txt",
+      "type": "domain-suffix",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 358,
+        "valid": 358,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "proxy-domains-private.txt",
+      "type": "domain-suffix",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 215,
+        "valid": 215,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "proxy-ips.txt",
+      "type": "ip-cidr",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 6,
+        "valid": 6,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
+      "file": "proxy-process.txt",
+      "type": "process-name",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 5,
+        "valid": 5,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    }
+  ],
+  "templates": [
+    {
+      "file": "domain-suffix.json",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "ip-cidr.json",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "process-name.json",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "total_files": 10,
+    "valid_files": 10,
+    "invalid_files": 0,
+    "total_rules": 646,
+    "valid_rules": 646,
+    "invalid_rules": 0
+  }
+}
