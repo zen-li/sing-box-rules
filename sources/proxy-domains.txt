@@ -357,3 +357,4 @@ zed.dev
 zengo.com
 zoom.com
 zoom.us
+vultr.com

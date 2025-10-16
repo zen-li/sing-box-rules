@@ -46,8 +46,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 358,
-        "valid": 358,
+        "total": 359,
+        "valid": 359,
         "invalid": 0,
         "duplicate": 0
       }
@@ -116,8 +116,8 @@
     "total_files": 10,
     "valid_files": 10,
     "invalid_files": 0,
-    "total_rules": 646,
-    "valid_rules": 646,
+    "total_rules": 647,
+    "valid_rules": 647,
     "invalid_rules": 0
   }
 }
