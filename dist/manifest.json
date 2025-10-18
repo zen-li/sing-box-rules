@@ -1,21 +1,21 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2025-10-16T11:43:37.556Z",
+  "generated": "2025-10-18T03:10:05.768Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 572,
+      "size": 590,
       "rules": {
-        "total": 43,
-        "valid": 43,
+        "total": 44,
+        "valid": 44,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "5067a2ed",
-      "lastModified": "2025-10-15T08:32:54.872Z",
+      "checksum": "9b4bd",
+      "lastModified": "2025-10-18T00:27:54.188Z",
       "description": "Direct connection domain rules"
     },
     {
@@ -52,15 +52,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 4768,
+      "size": 4896,
       "rules": {
-        "total": 359,
-        "valid": 359,
+        "total": 366,
+        "valid": 366,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "86bf1d4",
-      "lastModified": "2025-10-16T11:43:00.858Z",
+      "checksum": "4b8fbe2a",
+      "lastModified": "2025-10-18T03:09:51.412Z",
       "description": "Proxy connection domain rules"
     },
     {
@@ -82,15 +82,15 @@
       "name": "proxy-ips",
       "type": "ip-cidr",
       "file": "proxy-ips.srs",
-      "size": 480,
+      "size": 481,
       "rules": {
         "total": 6,
         "valid": 6,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "4e6f2d58",
-      "lastModified": "2025-10-14T12:20:35.989Z",
+      "checksum": "7f767d9e",
+      "lastModified": "2025-10-18T03:09:58.859Z",
       "description": "Proxy connection IP CIDR rules"
     },
     {

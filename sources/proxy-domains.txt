@@ -188,9 +188,6 @@ kucoin.com
 layeh.com
 ledger.com
 leet.haus
-licdn.com
-linkedin-ei.com
-linkedincdn.com
 makerdao.com
 malwarebytes.com
 marzrock.com
@@ -358,3 +355,15 @@ zengo.com
 zoom.com
 zoom.us
 vultr.com
+
+# LinkedIn - Complete coverage
+licdn.cn
+licdn.com
+linkedin-ei.com
+linkedincdn.com
+linkedin.com
+linkedin.com.cdn.cloudflare.net
+lnkd.in
+linkedin.cn
+demdex.net
+omtrdc.net
