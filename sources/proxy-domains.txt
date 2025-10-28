@@ -11,11 +11,16 @@ ads-twitter.com
 airtable.com
 airtableusercontent.com
 akamaized.net
+
+# Akash network
 akash.network
 akash.pw
 akashnet.net
 akashprovid.com
 aksh.pw
+stackadapt.com
+iqm.com
+
 amazon.com
 amazon.dev
 amazonaws.com
