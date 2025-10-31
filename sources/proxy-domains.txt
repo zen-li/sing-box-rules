@@ -372,3 +372,6 @@ lnkd.in
 linkedin.cn
 demdex.net
 omtrdc.net
+
+# 国内云服务
+aliyun.com
