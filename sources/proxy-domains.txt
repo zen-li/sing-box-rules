@@ -258,7 +258,6 @@ redditstatic.com
 redgifs.com
 safepal.io
 sagernet.org
-sandbox-01.aksh.pw
 sentry.io
 sharepoint.com
 shuralyov.com
@@ -311,7 +310,6 @@ tiktokcdn.com
 tiktokv.com
 todesktop.com
 tokenpocket.pro
-ton.twimg.com
 trae.ai
 trello.com
 trellocdn.com
@@ -323,7 +321,6 @@ tudcloud.com
 twimg.com
 twitpic.com
 twitter.com
-twitter.map.fastly.net
 uber.org
 udemy.com
 udemycdn.com
@@ -332,7 +329,6 @@ v2ex.com
 v2rayfast.com
 v2rayssr.com
 vercel.app
-video.twimg.com
 walletconnect.com
 walletlink.org
 web3auth.io
@@ -346,12 +342,10 @@ x.ai
 x.com
 youtu.be
 youtube-nocookie.com
-youtube-ui.l.google.com
 youtube.com
-youtube.googleapis.com
-youtube.l.google.com
+googleapis.com
+google.com
 youtubeeducation.com
-youtubei.googleapis.com
 youtubekids.com
 yt.be
 ytimg.com

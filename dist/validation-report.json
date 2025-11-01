@@ -44,12 +44,14 @@
       "type": "domain-suffix",
       "valid": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "Found 1 duplicate rules"
+      ],
       "stats": {
-        "total": 369,
-        "valid": 369,
+        "total": 363,
+        "valid": 363,
         "invalid": 0,
-        "duplicate": 0
+        "duplicate": 1
       }
     },
     {
@@ -116,8 +118,8 @@
     "total_files": 10,
     "valid_files": 10,
     "invalid_files": 0,
-    "total_rules": 658,
-    "valid_rules": 658,
+    "total_rules": 652,
+    "valid_rules": 652,
     "invalid_rules": 0
   }
 }
