@@ -13,19 +13,7 @@ bilibili.com
 netease.com
 mi.com
 xiaomi.com
-douyin.com
-bytegoofy.com
-douyinstatic.com
-bytescm.com
-bytetos.com
-byteimg.com
-zijieapi.com
-ibytedapm.com
-yhgfb-cn-static.com
-douyinpic.com
-bytedance.com
-douyinvod.com
-toutiao.com
+
 1password.com
 51job.com
 liepin.com
@@ -45,4 +33,16 @@ cninsights.com
 cninsights.com.cn
 
 # 字节
+douyin.com
+bytegoofy.com
+douyinstatic.com
+bytescm.com
+bytetos.com
+byteimg.com
 zijieapi.com
+ibytedapm.com
+yhgfb-cn-static.com
+douyinpic.com
+bytedance.com
+douyinvod.com
+toutiao.com
