@@ -344,6 +344,7 @@ youtu.be
 youtube-nocookie.com
 youtube.com
 googleapis.com
+fonts.googleapis.com
 google.com
 youtubeeducation.com
 youtubekids.com
