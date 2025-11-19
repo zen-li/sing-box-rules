@@ -4,8 +4,6 @@
 64clouds.com
 a2z.com
 aave.com
-abs-0.twimg.com
-abs.twimg.com
 ads-pixiv.net
 ads-twitter.com
 airtable.com
@@ -229,7 +227,6 @@ openfpcdn.io
 opensea.io
 opentelemetry.io
 pancakeswap.finance
-pbs.twimg.com
 periscope.tv
 pgregory.net
 phantom.app
@@ -369,5 +366,4 @@ linkedin.cn
 demdex.net
 omtrdc.net
 
-# 国内云服务
-aliyun.com
+posthog.com
