@@ -369,3 +369,8 @@ demdex.net
 omtrdc.net
 
 posthog.com
+
+# 土耳其 Apple 礼品卡购买站点 oyunfor.com
+oyunfor.com
+yandex.ru
+mgmtekno.com
