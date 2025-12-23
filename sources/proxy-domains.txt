@@ -355,6 +355,7 @@ zoom.us
 vultr.com
 skywork.ai
 manus.im
+presentations.ai
 
 # LinkedIn - Complete coverage
 licdn.cn
