@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2025-12-24T07:32:55.670Z",
+  "generated": "2025-12-24T08:06:49.362Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -52,15 +52,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 4957,
+      "size": 4976,
       "rules": {
-        "total": 370,
-        "valid": 370,
+        "total": 372,
+        "valid": 372,
         "invalid": 0,
         "duplicate": 1
       },
-      "checksum": "5d7f7117",
-      "lastModified": "2025-12-24T07:32:43.716Z",
+      "checksum": "77a521b3",
+      "lastModified": "2025-12-24T08:06:43.760Z",
       "description": "Proxy connection domain rules"
     },
     {

@@ -357,6 +357,8 @@ skywork.ai
 manus.im
 presentations.ai
 antigravity.google
+serper.dev
+jina.ai
 
 # LinkedIn - Complete coverage
 licdn.cn
