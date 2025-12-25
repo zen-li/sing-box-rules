@@ -25,6 +25,8 @@ zhihu.com
 acfun.cn
 ksapisrv.com
 deepseek.com
+moonshot.cn
+bigmodel.cn
 quark.cn
 minimaxi.com
 genun.tech
