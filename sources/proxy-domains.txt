@@ -335,6 +335,7 @@ whatsapp.net
 wikimedia.org
 wikipedia.org
 withgoogle.com
+deepwiki.com
 x.ai
 x.com
 youtu.be
