@@ -25,6 +25,7 @@ zhihu.com
 acfun.cn
 ksapisrv.com
 deepseek.com
+volces.com
 moonshot.cn
 bigmodel.cn
 quark.cn
@@ -59,5 +60,7 @@ ecombdimg.com
 bytetcc.com
 doubao.com
 feelgood.cn
+snssdk.com
+bytegecko.com
 
 rmtxdj.com
