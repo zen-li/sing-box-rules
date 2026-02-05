@@ -25,6 +25,7 @@ zhihu.com
 acfun.cn
 ksapisrv.com
 deepseek.com
+fe-static.deepseek.com
 volces.com
 moonshot.cn
 bigmodel.cn
