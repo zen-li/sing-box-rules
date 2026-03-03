@@ -201,7 +201,11 @@ medium.com
 medium.systems
 metadata.io
 metamask.io
+
+# mexc
 mexc.com
+fpnpmcdn.net
+
 mirror.xyz
 mitmproxy.org
 mixpanel.com
