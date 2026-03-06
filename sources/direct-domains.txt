@@ -70,3 +70,4 @@ rmtxdj.com
 argotunnel.com
 cloudflarewrap.com
 cloudflare-gateway.com
+cfargotunnel.com
