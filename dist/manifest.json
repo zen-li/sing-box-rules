@@ -1,21 +1,21 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-03-06T17:40:24.233Z",
+  "generated": "2026-03-06T17:54:17.916Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 849,
+      "size": 927,
       "rules": {
-        "total": 62,
-        "valid": 62,
+        "total": 65,
+        "valid": 65,
         "invalid": 0,
         "duplicate": 1
       },
-      "checksum": "1e643971",
-      "lastModified": "2026-02-05T14:48:01.583Z",
+      "checksum": "5ba66d96",
+      "lastModified": "2026-03-06T17:51:21.890Z",
       "description": "Direct connection domain rules"
     },
     {
@@ -37,15 +37,15 @@
       "name": "direct-process",
       "type": "process-name",
       "file": "direct-process.srs",
-      "size": 143,
+      "size": 155,
       "rules": {
-        "total": 8,
-        "valid": 8,
+        "total": 9,
+        "valid": 9,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "62c92a4f",
-      "lastModified": "2025-10-14T12:15:33.078Z",
+      "checksum": "5726b1b0",
+      "lastModified": "2026-03-06T17:51:12.089Z",
       "description": "Direct connection process name rules"
     },
     {

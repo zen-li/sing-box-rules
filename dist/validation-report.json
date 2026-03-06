@@ -9,8 +9,8 @@
         "Found 1 duplicate rules"
       ],
       "stats": {
-        "total": 62,
-        "valid": 62,
+        "total": 65,
+        "valid": 65,
         "invalid": 0,
         "duplicate": 1
       }
@@ -35,8 +35,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 8,
-        "valid": 8,
+        "total": 9,
+        "valid": 9,
         "invalid": 0,
         "duplicate": 0
       }
@@ -120,8 +120,8 @@
     "total_files": 10,
     "valid_files": 10,
     "invalid_files": 0,
-    "total_rules": 683,
-    "valid_rules": 683,
+    "total_rules": 687,
+    "valid_rules": 687,
     "invalid_rules": 0
   }
 }

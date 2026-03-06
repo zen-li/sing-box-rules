@@ -7,3 +7,4 @@ WeChat
 Tailscale
 wireguard-go
 Tunnelblick
+cloudflared
