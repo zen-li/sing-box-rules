@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-03-06T18:04:19.498Z",
+  "generated": "2026-03-13T15:39:44.324Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -67,15 +67,15 @@
       "name": "proxy-domains-private",
       "type": "domain-suffix",
       "file": "proxy-domains-private.srs",
-      "size": 2766,
+      "size": 2777,
       "rules": {
-        "total": 215,
-        "valid": 215,
+        "total": 216,
+        "valid": 216,
         "invalid": 0,
-        "duplicate": 0
+        "duplicate": 1
       },
-      "checksum": "61ff0549",
-      "lastModified": "2025-10-14T12:34:59.443Z",
+      "checksum": "744a2b7",
+      "lastModified": "2026-03-13T15:39:24.238Z",
       "description": "Private proxy domain rules"
     },
     {
