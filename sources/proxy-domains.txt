@@ -388,4 +388,4 @@ mgmtekno.com
 
 # Python
 pypi.org
-pypi.python.org
+python.org
