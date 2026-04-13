@@ -71,3 +71,8 @@ argotunnel.com
 cloudflarewrap.com
 cloudflare-gateway.com
 cfargotunnel.com
+
+# Python
+aliyun.com
+tsinghua.edu.cn
+douban.com

@@ -385,3 +385,7 @@ posthog.com
 oyunfor.com
 yandex.ru
 mgmtekno.com
+
+# Python
+pypi.org
+pypi.python.org
