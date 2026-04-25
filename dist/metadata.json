@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "generated": "2026-04-25T16:01:35.845Z",
+  "generated": "2026-04-25T16:09:52.118Z",
   "repository": {
     "url": "git@github.com:zen-li/sing-box-rules.git",
     "branch": "main",
-    "commit": "9773bbd096cdabf1588695082ce9b0005617332c",
-    "commitTime": "2026-04-25T23:54:45+08:00",
+    "commit": "fc5af6591db95d28c8758d91781736d2a1e448b6",
+    "commitTime": "2026-04-26T00:01:36+08:00",
     "isDirty": true
   },
   "rules": {
@@ -89,15 +89,15 @@
         "file": "proxy-ips.txt",
         "type": "ip-cidr",
         "exists": true,
-        "size": 1143,
-        "lastModified": "2026-04-25T15:59:54.288Z",
+        "size": 1221,
+        "lastModified": "2026-04-25T16:08:10.821Z",
         "rules": {
-          "total": 41,
-          "valid": 41,
+          "total": 46,
+          "valid": 46,
           "invalid": 0,
           "duplicate": 0
         },
-        "checksum": "29c0724e",
+        "checksum": "5e66553c",
         "output": "proxy-ips.srs"
       },
       {
@@ -121,7 +121,7 @@
         "file": "direct-domains.srs",
         "exists": true,
         "size": 573,
-        "lastModified": "2026-04-25T16:01:35.512Z",
+        "lastModified": "2026-04-25T16:09:51.782Z",
         "checksum": "10b15575",
         "source": "direct-domains.txt"
       },
@@ -129,7 +129,7 @@
         "file": "direct-ips.srs",
         "exists": true,
         "size": 121,
-        "lastModified": "2026-04-25T16:01:35.526Z",
+        "lastModified": "2026-04-25T16:09:51.796Z",
         "checksum": "70e03051",
         "source": "direct-ips.txt"
       },
@@ -137,7 +137,7 @@
         "file": "direct-process.srs",
         "exists": true,
         "size": 113,
-        "lastModified": "2026-04-25T16:01:35.539Z",
+        "lastModified": "2026-04-25T16:09:51.809Z",
         "checksum": "9fd9b05",
         "source": "direct-process.txt"
       },
@@ -145,7 +145,7 @@
         "file": "proxy-domains.srs",
         "exists": true,
         "size": 2795,
-        "lastModified": "2026-04-25T16:01:35.555Z",
+        "lastModified": "2026-04-25T16:09:51.825Z",
         "checksum": "15491d7f",
         "source": "proxy-domains.txt"
       },
@@ -153,23 +153,23 @@
         "file": "proxy-domains-private.srs",
         "exists": true,
         "size": 1690,
-        "lastModified": "2026-04-25T16:01:35.569Z",
+        "lastModified": "2026-04-25T16:09:51.838Z",
         "checksum": "79557460",
         "source": "proxy-domains-private.txt"
       },
       {
         "file": "proxy-ips.srs",
         "exists": true,
-        "size": 240,
-        "lastModified": "2026-04-25T16:01:35.583Z",
-        "checksum": "1c37d044",
+        "size": 256,
+        "lastModified": "2026-04-25T16:09:51.851Z",
+        "checksum": "75e2de32",
         "source": "proxy-ips.txt"
       },
       {
         "file": "proxy-process.srs",
         "exists": true,
         "size": 56,
-        "lastModified": "2026-04-25T16:01:35.597Z",
+        "lastModified": "2026-04-25T16:09:51.864Z",
         "checksum": "7819cce5",
         "source": "proxy-process.txt"
       }
@@ -177,8 +177,8 @@
     "summary": {
       "totalSourceFiles": 7,
       "validSourceFiles": 7,
-      "totalRules": 728,
-      "validRules": 728,
+      "totalRules": 733,
+      "validRules": 733,
       "builtFiles": 7
     }
   },
