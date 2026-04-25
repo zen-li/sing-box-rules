@@ -22,6 +22,9 @@ iqm.com
 # Apple
 push.apple.com
 
+# Microsoft
+microsoft.com
+
 amazon.com
 amazon.dev
 amazonaws.com
