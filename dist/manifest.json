@@ -1,21 +1,21 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-04-25T16:09:52.118Z",
+  "generated": "2026-04-25T16:18:54.002Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 957,
+      "size": 1008,
       "rules": {
-        "total": 67,
-        "valid": 67,
+        "total": 70,
+        "valid": 70,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "45da18e",
-      "lastModified": "2026-04-25T14:47:50.507Z",
+      "checksum": "7249d6d1",
+      "lastModified": "2026-04-25T16:13:41.706Z",
       "description": "Direct connection domain rules"
     },
     {
@@ -52,15 +52,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 5082,
+      "size": 5055,
       "rules": {
-        "total": 377,
-        "valid": 377,
+        "total": 376,
+        "valid": 376,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "667cdfa8",
-      "lastModified": "2026-04-25T15:58:11.842Z",
+      "checksum": "62fe85a0",
+      "lastModified": "2026-04-25T16:13:21.587Z",
       "description": "Proxy connection domain rules"
     },
     {

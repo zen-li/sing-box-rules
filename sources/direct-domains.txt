@@ -14,6 +14,11 @@ netease.com
 mi.com
 xiaomi.com
 
+# Microsoft
+microsoft.com
+hotmail.com
+outlook.com
+
 1password.com
 51job.com
 liepin.com
