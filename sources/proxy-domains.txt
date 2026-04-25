@@ -347,7 +347,7 @@ youtube-nocookie.com
 youtube.com
 googleapis.com
 fonts.googleapis.com
-google.com
+
 gstatic.com
 youtubeeducation.com
 youtubekids.com

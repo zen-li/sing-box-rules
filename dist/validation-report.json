@@ -5,14 +5,12 @@
       "type": "domain-suffix",
       "valid": true,
       "errors": [],
-      "warnings": [
-        "Found 1 duplicate rules"
-      ],
+      "warnings": [],
       "stats": {
-        "total": 69,
-        "valid": 69,
+        "total": 67,
+        "valid": 67,
         "invalid": 0,
-        "duplicate": 1
+        "duplicate": 0
       }
     },
     {
@@ -46,14 +44,12 @@
       "type": "domain-suffix",
       "valid": true,
       "errors": [],
-      "warnings": [
-        "Found 1 duplicate rules"
-      ],
+      "warnings": [],
       "stats": {
-        "total": 376,
-        "valid": 376,
+        "total": 375,
+        "valid": 375,
         "invalid": 0,
-        "duplicate": 1
+        "duplicate": 0
       }
     },
     {
@@ -120,8 +116,8 @@
     "total_files": 10,
     "valid_files": 10,
     "invalid_files": 0,
-    "total_rules": 704,
-    "valid_rules": 704,
+    "total_rules": 701,
+    "valid_rules": 701,
     "invalid_rules": 0
   }
 }
