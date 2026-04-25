@@ -19,6 +19,9 @@ aksh.pw
 stackadapt.com
 iqm.com
 
+# Apple
+push.apple.com
+
 amazon.com
 amazon.dev
 amazonaws.com
