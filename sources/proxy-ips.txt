@@ -19,3 +19,15 @@
 # IPv6 OpenDNS commented out for compatibility
 # 2620:119:35::35/128
 # 2620:119:53::53/128
+
+# Hardcoded/Un-sniffable IPs falling to direct
+# Twitter
+202.160.128.203/32
+199.59.148.6/32
+# Vultr (Unknown proxy node or service)
+202.182.98.125/32
+# Dropbox
+108.160.165.62/32
+162.125.6.1/32
+# IBM/Softlayer
+174.36.228.136/32
