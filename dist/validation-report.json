@@ -18,17 +18,13 @@
     {
       "file": "direct-ips.txt",
       "type": "ip-cidr",
-      "valid": false,
-      "errors": [
-        "Found 1 invalid rules"
-      ],
-      "warnings": [
-        "Invalid rule: 8.140.245.238"
-      ],
+      "valid": true,
+      "errors": [],
+      "warnings": [],
       "stats": {
         "total": 14,
-        "valid": 13,
-        "invalid": 1,
+        "valid": 14,
+        "invalid": 0,
         "duplicate": 0
       }
     },
@@ -122,10 +118,10 @@
   ],
   "summary": {
     "total_files": 10,
-    "valid_files": 9,
-    "invalid_files": 1,
-    "total_rules": 690,
-    "valid_rules": 690,
+    "valid_files": 10,
+    "invalid_files": 0,
+    "total_rules": 704,
+    "valid_rules": 704,
     "invalid_rules": 0
   }
 }
