@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "buildTime": "2026-04-25T14:57:51.682Z",
-  "gitCommit": "f220ff83dee6a67971310efe1ba772426247e3e7",
+  "buildTime": "2026-04-25T15:03:52.838Z",
+  "gitCommit": "6d8bc2e4f9849fc0f46787d357bb098caee6d5b7",
   "gitBranch": "main",
   "rulesSummary": {
     "totalSourceFiles": 7,
     "validSourceFiles": 7,
-    "totalRules": 708,
-    "validRules": 708,
+    "totalRules": 701,
+    "validRules": 701,
     "builtFiles": 7
   }
 }
