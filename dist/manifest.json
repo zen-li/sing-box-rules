@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-04-25T15:35:22.773Z",
+  "generated": "2026-04-25T15:46:45.763Z",
   "rules": [
     {
       "name": "direct-domains",
