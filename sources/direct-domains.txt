@@ -14,6 +14,10 @@ netease.com
 mi.com
 xiaomi.com
 
+# 飞书
+feishu.cn
+larkoffice.com
+
 # Microsoft
 microsoft.com
 hotmail.com
