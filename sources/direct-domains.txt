@@ -18,8 +18,15 @@ xiaomi.com
 feishu.cn
 larkoffice.com
 
-# Microsoft
+# Microsoft（含帐号 / SSO / Copilot 登录；避免经 Fake-IP → 代理链导致 TLS 握手失败）
 microsoft.com
+microsoftonline.com
+live.com
+live.net
+msauth.net
+office.com
+office365.com
+microsoft365.com
 hotmail.com
 outlook.com
 
