@@ -5,6 +5,7 @@ ToDesk
 ToDesk_Service
 WeChat
 Tailscale
+tailscaled
 wireguard-go
 Tunnelblick
 cloudflared

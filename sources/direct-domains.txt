@@ -30,6 +30,11 @@ microsoft365.com
 hotmail.com
 outlook.com
 
+# Tailscale（控制面 controlplane / 登录 / DERP / 日志；走直连 + 真实解析，避免 Fake-IP 导致 tailscaled 注册失败或与代理链路冲突）
+tailscale.com
+tailscale.io
+ts.net
+
 1password.com
 51job.com
 liepin.com
