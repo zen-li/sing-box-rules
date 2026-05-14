@@ -24,8 +24,8 @@
         "Invalid rule: 222.143.21.61"
       ],
       "stats": {
-        "total": 15,
-        "valid": 14,
+        "total": 16,
+        "valid": 15,
         "invalid": 1,
         "duplicate": 0
       }

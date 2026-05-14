@@ -30,7 +30,10 @@ microsoft365.com
 hotmail.com
 outlook.com
 
-# Tailscale（控制面 controlplane / 登录 / DERP / 日志；走直连 + 真实解析，避免 Fake-IP 导致 tailscaled 注册失败或与代理链路冲突）
+# Tailscale / tailnet · 域名直连（domain_suffix）
+# tailscale.com：controlplane/login/pkgs/derp*. 等 *.tailscale.com
+# tailscale.io：log.tailscale.io 等遥测/API 子域
+# ts.net：设备名 *.ts.net、MagicDNS
 tailscale.com
 tailscale.io
 ts.net
