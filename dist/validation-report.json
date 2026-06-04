@@ -68,13 +68,17 @@
     {
       "file": "proxy-ips.txt",
       "type": "ip-cidr",
-      "valid": true,
-      "errors": [],
-      "warnings": [],
+      "valid": false,
+      "errors": [
+        "Found 1 invalid rules"
+      ],
+      "warnings": [
+        "Invalid rule: 75.126.150.0.24"
+      ],
       "stats": {
-        "total": 86,
-        "valid": 86,
-        "invalid": 0,
+        "total": 89,
+        "valid": 88,
+        "invalid": 1,
         "duplicate": 0
       }
     },
@@ -114,10 +118,10 @@
   ],
   "summary": {
     "total_files": 10,
-    "valid_files": 10,
-    "invalid_files": 0,
-    "total_rules": 812,
-    "valid_rules": 812,
+    "valid_files": 9,
+    "invalid_files": 1,
+    "total_rules": 726,
+    "valid_rules": 726,
     "invalid_rules": 0
   }
 }
