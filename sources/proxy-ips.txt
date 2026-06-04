@@ -144,3 +144,6 @@
 
 # Auto-detected 2026-06-04 hits=8 countries=KW samples=168.143.171.189
 168.143.171.0/24
+
+# Auto-detected 2026-06-04 hits=8 countries=JP samples=202.160.130.118
+202.160.130.0/24

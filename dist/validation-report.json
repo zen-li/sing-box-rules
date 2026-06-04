@@ -76,8 +76,8 @@
         "Invalid rule: 75.126.150.0.24"
       ],
       "stats": {
-        "total": 89,
-        "valid": 88,
+        "total": 90,
+        "valid": 89,
         "invalid": 1,
         "duplicate": 0
       }
