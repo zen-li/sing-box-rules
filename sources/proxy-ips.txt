@@ -138,3 +138,6 @@
 
 # Auto-detected 2026-06-04 hits=4 countries=US samples=103.226.246.99
 103.226.246.0/24
+
+# Auto-detected 2026-06-04 hits=8 countries=KW samples=168.143.171.189
+168.143.171.0/24

@@ -155,7 +155,6 @@ google.com.mx
 google.com.sg
 google.com.tr
 google.com.tw
-google.com.hk
 google.cn
 google.de
 google.es
