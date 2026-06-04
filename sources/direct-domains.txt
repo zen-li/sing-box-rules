@@ -47,7 +47,11 @@ liepin.com
 zhaopin.com
 maimai.cn
 siliconflow.cn
+aliyun.com
+alcasset.com
 aliyuncs.com
+alicdn.com
+alibabacloud.com
 zhihu.com
 acfun.cn
 ksapisrv.com
@@ -103,7 +107,6 @@ cloudflare-gateway.com
 cfargotunnel.com
 
 # Python
-aliyun.com
 aliyunddos.com
 aliyun-inc.com
 tsinghua.edu.cn

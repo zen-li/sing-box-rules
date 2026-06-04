@@ -7,8 +7,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 94,
-        "valid": 94,
+        "total": 97,
+        "valid": 97,
         "invalid": 0,
         "duplicate": 0
       }
@@ -20,8 +20,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 16,
-        "valid": 16,
+        "total": 22,
+        "valid": 22,
         "invalid": 0,
         "duplicate": 0
       }
@@ -116,8 +116,8 @@
     "total_files": 10,
     "valid_files": 10,
     "invalid_files": 0,
-    "total_rules": 791,
-    "valid_rules": 791,
+    "total_rules": 800,
+    "valid_rules": 800,
     "invalid_rules": 0
   }
 }
