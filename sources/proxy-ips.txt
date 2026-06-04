@@ -105,3 +105,33 @@
 
 # Auto-detected 2026-06-04 hits=14 countries=US samples=69.171.235.22
 69.171.235.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.150.2
+142.251.150.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.151.2
+142.251.151.0/24
+
+# Auto-detected 2026-06-04 hits=10 countries=US samples=142.251.152.2,142.251.152.119
+142.251.152.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.153.2
+142.251.153.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.154.2
+142.251.154.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.155.2
+142.251.155.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.156.2
+142.251.156.0/24
+
+# Auto-detected 2026-06-04 hits=6 countries=US samples=142.251.157.2
+142.251.157.0/24
+
+# Auto-detected 2026-06-04 hits=10 countries=VN samples=150.107.3.176
+150.107.3.0/24
+
+# Auto-detected 2026-06-04 hits=18 countries=US samples=199.96.58.177
+199.96.58.0/24
