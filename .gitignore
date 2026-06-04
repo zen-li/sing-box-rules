@@ -1,5 +1,21 @@
 node_modules/
 .vscode/
 .DS_Store
+
+# Private rules (local only)
 sources/proxy-domains-private.txt
+
+# Build artifacts (local only)
 dist/build-report.json
+
+# analyze-direct-timeouts — runtime / local test data (tracked: analyze.py, run.sh only)
+analyze-direct-timeouts/reports/
+analyze-direct-timeouts/fixtures/
+analyze-direct-timeouts/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+
+deploy.*.sh
+sync.analyze.generated.proxy-ips.sh

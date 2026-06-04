@@ -7,8 +7,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 82,
-        "valid": 82,
+        "total": 94,
+        "valid": 94,
         "invalid": 0,
         "duplicate": 0
       }
@@ -16,17 +16,13 @@
     {
       "file": "direct-ips.txt",
       "type": "ip-cidr",
-      "valid": false,
-      "errors": [
-        "Found 1 invalid rules"
-      ],
-      "warnings": [
-        "Invalid rule: 222.143.21.61"
-      ],
+      "valid": true,
+      "errors": [],
+      "warnings": [],
       "stats": {
         "total": 16,
-        "valid": 15,
-        "invalid": 1,
+        "valid": 16,
+        "invalid": 0,
         "duplicate": 0
       }
     },
@@ -50,8 +46,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 369,
-        "valid": 369,
+        "total": 377,
+        "valid": 377,
         "invalid": 0,
         "duplicate": 0
       }
@@ -74,14 +70,12 @@
       "type": "ip-cidr",
       "valid": true,
       "errors": [],
-      "warnings": [
-        "Found 1 duplicate rules"
-      ],
+      "warnings": [],
       "stats": {
-        "total": 88,
-        "valid": 88,
+        "total": 79,
+        "valid": 79,
         "invalid": 0,
-        "duplicate": 1
+        "duplicate": 0
       }
     },
     {
@@ -120,10 +114,10 @@
   ],
   "summary": {
     "total_files": 10,
-    "valid_files": 9,
-    "invalid_files": 1,
-    "total_rules": 769,
-    "valid_rules": 769,
+    "valid_files": 10,
+    "invalid_files": 0,
+    "total_rules": 796,
+    "valid_rules": 796,
     "invalid_rules": 0
   }
 }

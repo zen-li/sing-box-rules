@@ -1,5 +1,8 @@
 # Direct connection domains - Chinese services and local networks
 qq.com
+weixin.qq.com
+mp.weixin.qq.com
+qq.com.cn
 tencent.com
 weixin.com
 taobao.com
@@ -86,6 +89,10 @@ doubao.com
 feelgood.cn
 snssdk.com
 bytegecko.com
+elabpic.com
+huoshanstatic.com
+pstatp.com
+jiyunhudong.com
 
 rmtxdj.com
 
@@ -97,5 +104,11 @@ cfargotunnel.com
 
 # Python
 aliyun.com
+aliyunddos.com
+aliyun-inc.com
 tsinghua.edu.cn
 douban.com
+
+mmstat.com
+tbcdn.cn
+taobaocdn.com

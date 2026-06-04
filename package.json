@@ -16,6 +16,7 @@
     "build:full": "npm run clean && npm run build && npm run metadata && npm run validate",
     "publish:local": "npm run build:full && echo 'Files ready for manual commit and push to GitHub'",
     "publish": "./scripts/publish.sh",
+    "analyze-logs": "python3 analyze-direct-timeouts/analyze.py --proxy-ips-file sources/proxy-ips.txt",
     "status": "ls -la dist/ && echo 'Total files:' && ls dist/*.srs 2>/dev/null | wc -l"
   },
   "keywords": [

@@ -129,10 +129,14 @@ fluence.dev
 forms.gle
 foundation.app
 ftx.com
+g.cn
+www.g.cn
 galend.com
 gate.io
 gcpp.cursor.sh
 gemini.com
+aistudio.google.com
+bard.google.com
 genunuserdata.online
 ggpht.com
 godaddy.com
@@ -151,15 +155,18 @@ google.com.mx
 google.com.sg
 google.com.tr
 google.com.tw
+google.cn
 google.de
 google.es
 google.fr
 google.it
 googleadservices.com
+www.googleadservices.com
 googlesyndication.com
 googletagmanager.com
 googleusercontent.com
 googlevideo.com
+adtrafficquality.google
 gopkg.in
 gotest.tools
 gptnb.ai
@@ -385,3 +392,6 @@ mgmtekno.com
 # Python
 pypi.org
 python.org
+
+# Tailscale
+pkgs.tailscale.com
