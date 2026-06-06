@@ -71,6 +71,7 @@ cninsights.com.cn
 
 # 字节
 douyin.com
+douyincdn.com
 bytegoofy.com
 douyinstatic.com
 bytescm.com
