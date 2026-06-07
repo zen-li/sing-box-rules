@@ -8,6 +8,10 @@ servicewechat.com
 wxqcloud.qq.com.cn
 wx.qq.com
 qq.com.cn
+qlogo.cn
+str.beacon.qq.com
+otheve.beacon.qq.com
+beacon.qq.com
 tencent.com
 weixin.com
 taobao.com
