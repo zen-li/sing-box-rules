@@ -6,6 +6,7 @@ developers.weixin.qq.com
 weixinbridge.com
 servicewechat.com
 wxqcloud.qq.com.cn
+wx.qq.com
 qq.com.cn
 tencent.com
 weixin.com
