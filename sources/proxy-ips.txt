@@ -152,6 +152,7 @@
 
 # Auto-detected history hits=12 countries=US samples=104.244.46.186
 104.244.46.0/24
+104.244.42.0/24
 
 # Auto-detected history hits=8 countries=MX samples=128.242.245.244
 128.242.245.0/24

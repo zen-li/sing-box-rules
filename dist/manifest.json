@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-07T08:56:28.847Z",
+  "generated": "2026-06-07T09:03:38.337Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -82,15 +82,15 @@
       "name": "proxy-ips",
       "type": "ip-cidr",
       "file": "proxy-ips.srs",
-      "size": 7585,
+      "size": 7601,
       "rules": {
-        "total": 140,
-        "valid": 140,
+        "total": 141,
+        "valid": 141,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "5e4aea43",
-      "lastModified": "2026-06-06T12:23:00.944Z",
+      "checksum": "33aa4351",
+      "lastModified": "2026-06-07T09:00:41.668Z",
       "description": "Proxy connection IP CIDR rules"
     },
     {
