@@ -143,6 +143,7 @@ godaddy.com
 golang.org
 gomodules.xyz
 gonum.org
+gmail.com
 google-analytics.com
 google.co.in
 google.co.jp
