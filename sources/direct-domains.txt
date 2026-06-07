@@ -2,6 +2,7 @@
 qq.com
 weixin.qq.com
 mp.weixin.qq.com
+developers.weixin.qq.com
 qq.com.cn
 tencent.com
 weixin.com
