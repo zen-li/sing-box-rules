@@ -99,6 +99,15 @@
 
 # Unkown IPv4 addresses
 31.13.112.0/24
+31.13.92.0/24
+31.13.88.0/24
+31.13.67.0/24
+31.13.68.0/24
+31.13.70.0/24
+31.13.85.0/24
+31.13.96.0/24
+31.13.0.0/16
+
 128.242.240.0/24
 128.121.243.0/24
 75.126.150.0/24
@@ -136,8 +145,6 @@
 
 # Auto-detected 2026-06-04 hits=8 countries=JP samples=202.160.130.118
 202.160.130.0/24
-# Auto-detected history hits=10 countries=IN samples=31.13.92.37
-31.13.92.0/24
 
 # Auto-detected history hits=12 countries=US samples=104.244.46.186
 104.244.46.0/24
@@ -179,21 +186,6 @@
 # Auto-detected history hits=4 countries=US samples=216.153.62.49
 216.153.62.0/24
 
-# Auto-detected history hits=32 countries=IN samples=31.13.67.33,31.13.67.41,31.13.67.19
-31.13.67.0/24
-
-# Auto-detected history hits=8 countries=IN samples=31.13.68.169
-31.13.68.0/24
-
-# Auto-detected history hits=14 countries=US samples=31.13.70.13
-31.13.70.0/24
-
-# Auto-detected history hits=14 countries=BR samples=31.13.85.169
-31.13.85.0/24
-
-# Auto-detected history hits=10 countries=IE samples=31.13.96.192
-31.13.96.0/24
-
 # Auto-detected history hits=4 countries=US samples=69.162.134.178
 69.162.134.0/24
 
@@ -220,6 +212,9 @@
 
 # Auto-detected 2026-06-05 hits=4 countries=AU samples=157.240.2.50
 157.240.2.0/24
+157.240.18.0/24
+157.240.7.0/24
+157.240.0.0/16
 
 # Auto-detected 2026-06-05 hits=14 countries=US samples=162.125.7.1
 162.125.7.0/24
@@ -250,9 +245,6 @@
 
 # Auto-detected 2026-06-05 hits=12 countries=US samples=208.31.254.33
 208.31.254.0/24
-
-# Auto-detected 2026-06-05 hits=22 countries=IN samples=31.13.88.169
-31.13.88.0/24
 
 # Auto-detected 2026-06-05 hits=24 countries=KR samples=59.24.3.173
 59.24.3.0/24
@@ -286,3 +278,54 @@
 
 # Auto-detected 2026-06-05 hits=20 countries=US samples=75.126.33.156
 75.126.33.0/24
+
+# Auto-detected history hits=28 countries=NL samples=103.228.130.61,103.228.130.27
+103.228.130.0/24
+
+# Auto-detected history hits=16 countries=SG samples=103.252.114.101
+103.252.114.0/24
+
+# Auto-detected history hits=12 countries=US samples=104.244.45.246
+104.244.45.0/24
+
+# Auto-detected history hits=6 countries=CA samples=151.101.67.6
+151.101.67.0/24
+
+# Auto-detected history hits=4 countries=US samples=162.247.243.30
+162.247.243.0/24
+
+# Auto-detected history hits=4 countries=US samples=172.234.129.127
+172.234.129.0/24
+
+# Auto-detected history hits=24 countries=US samples=179.60.193.16
+179.60.193.0/24
+
+# Auto-detected history hits=4 countries=JP samples=199.232.162.49
+199.232.162.0/24
+
+# Auto-detected history hits=16 countries=US samples=199.96.63.163
+199.96.63.0/24
+
+# Auto-detected history hits=6 countries=ID samples=203.111.254.117
+203.111.254.0/24
+
+# Auto-detected history hits=4 countries=US samples=205.186.152.122
+205.186.152.0/24
+
+# Auto-detected history hits=4 countries=US samples=3.173.21.63
+3.173.21.0/24
+
+# Auto-detected history hits=4 countries=US samples=38.99.107.14
+38.99.107.0/24
+
+# Auto-detected history hits=6 countries=US samples=47.88.58.234
+47.88.58.0/24
+
+# Auto-detected history hits=24 countries=US samples=67.228.235.93
+67.228.235.0/24
+
+# Auto-detected history hits=6 countries=US samples=98.159.108.57
+98.159.108.0/24
+
+# Auto-detected 2026-06-07 hits=8 countries=US samples=38.134.110.235
+38.134.110.0/24
