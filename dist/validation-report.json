@@ -57,14 +57,12 @@
       "type": "domain-suffix",
       "valid": true,
       "errors": [],
-      "warnings": [
-        "Found 1 duplicate rules"
-      ],
+      "warnings": [],
       "stats": {
-        "total": 402,
-        "valid": 402,
+        "total": 401,
+        "valid": 401,
         "invalid": 0,
-        "duplicate": 1
+        "duplicate": 0
       }
     },
     {
@@ -131,8 +129,8 @@
     "total_files": 11,
     "valid_files": 11,
     "invalid_files": 0,
-    "total_rules": 953,
-    "valid_rules": 953,
+    "total_rules": 952,
+    "valid_rules": 952,
     "invalid_rules": 0
   }
 }
