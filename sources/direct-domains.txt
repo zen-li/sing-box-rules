@@ -1,4 +1,6 @@
 # Direct connection domains - Chinese services and local networks
+doh.pub
+dot.pub
 qq.com
 weixin.qq.com
 mp.weixin.qq.com
