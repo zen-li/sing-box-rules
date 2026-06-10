@@ -9,6 +9,9 @@ wxqcloud.qq.com.cn
 wx.qq.com
 qq.com.cn
 qlogo.cn
+qpic.cn
+tdnsv6.com
+dcloudstc.com
 str.beacon.qq.com
 otheve.beacon.qq.com
 beacon.qq.com
