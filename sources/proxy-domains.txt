@@ -152,6 +152,7 @@ godaddy.com
 golang.org
 gomodules.xyz
 gonum.org
+withgoogle.com
 gmail.com
 googlemail.com
 google-analytics.com
@@ -163,6 +164,7 @@ google.com.ar
 google.com.au
 google.com.br
 google.com.mx
+google.com.hk
 google.com.sg
 google.com.tr
 google.com.tw
