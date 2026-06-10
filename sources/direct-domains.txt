@@ -13,7 +13,11 @@ str.beacon.qq.com
 otheve.beacon.qq.com
 beacon.qq.com
 tencent.com
+cloud.tencent.com
+qcloud.com
+tencentcloudapi.com
 weixin.com
+open.weixin.qq.com
 taobao.com
 tmall.com
 alipay.com
@@ -57,10 +61,12 @@ zhaopin.com
 maimai.cn
 siliconflow.cn
 aliyun.com
+console.aliyun.com
 alcasset.com
 aliyuncs.com
 alicdn.com
 alibabacloud.com
+oss-cn.aliyuncs.com
 zhihu.com
 acfun.cn
 ksapisrv.com
