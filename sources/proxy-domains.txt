@@ -91,6 +91,16 @@ cursor-cdn.com
 cursor.com
 cursor.sh
 cursorapi.com
+api.cursor.sh
+api2.cursor.sh
+api3.cursor.sh
+api4.cursor.sh
+agent.api5.cursor.sh
+agentn.api5.cursor.sh
+prod.authentication.cursor.sh
+metrics.cursor.sh
+marketplace.cursorapi.com
+cursorvm.com
 customer.io
 dappradar.com
 date-fns.org

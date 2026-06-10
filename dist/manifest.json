@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-10T10:03:04.910Z",
+  "generated": "2026-06-10T10:15:23.038Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -67,15 +67,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 5347,
+      "size": 5536,
       "rules": {
-        "total": 392,
-        "valid": 392,
+        "total": 402,
+        "valid": 402,
         "invalid": 0,
         "duplicate": 1
       },
-      "checksum": "29c1c351",
-      "lastModified": "2026-06-10T10:01:00.246Z",
+      "checksum": "154d1c40",
+      "lastModified": "2026-06-10T10:13:16.166Z",
       "description": "Proxy connection domain rules"
     },
     {
@@ -97,30 +97,30 @@
       "name": "proxy-ips",
       "type": "ip-cidr",
       "file": "proxy-ips.srs",
-      "size": 8350,
+      "size": 8214,
       "rules": {
-        "total": 170,
-        "valid": 170,
+        "total": 168,
+        "valid": 168,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "3833cf97",
-      "lastModified": "2026-06-10T10:00:37.407Z",
+      "checksum": "5a560315",
+      "lastModified": "2026-06-10T10:13:16.167Z",
       "description": "Proxy connection IP CIDR rules"
     },
     {
       "name": "proxy-process",
       "type": "process-name",
       "file": "proxy-process.srs",
-      "size": 96,
+      "size": 110,
       "rules": {
-        "total": 5,
-        "valid": 5,
+        "total": 7,
+        "valid": 7,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "7588403",
-      "lastModified": "2025-10-14T12:15:35.526Z",
+      "checksum": "791c675d",
+      "lastModified": "2026-06-10T10:13:16.166Z",
       "description": "Proxy connection process name rules"
     }
   ]

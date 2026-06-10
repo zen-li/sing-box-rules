@@ -1,4 +1,6 @@
 # Proxy connection processes - International applications
+Cursor
+cursor
 DropboxMacUpdate
 Dropbox
 X
