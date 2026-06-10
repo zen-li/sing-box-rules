@@ -66,6 +66,10 @@
 # Cloudflare DNS
 1.0.0.1/32
 1.1.1.1/32
+
+# Tencent HK CDN（浏览器 DoH 绕过旁路由 DNS 时常见；大陆直连超时，改走代理）
+203.205.232.0/24
+203.205.239.0/24
 # IPv6 Cloudflare DNS commented out for compatibility
 # 2606:4700:4700::1111/128
 # 2606:4700:4700::1001/128

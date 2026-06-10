@@ -159,6 +159,11 @@ google-analytics.com
 google.co.in
 google.co.jp
 google.co.uk
+dns.google
+dns.google.com
+dns.cloudflare.com
+chrome.cloudflare-dns.com
+mozilla.cloudflare-dns.com
 google.com
 google.com.ar
 google.com.au
