@@ -129,6 +129,15 @@ fluence.dev
 forms.gle
 foundation.app
 ftx.com
+
+# GitHub / GitLab
+github.com
+githubusercontent.com
+githubassets.com
+git.io
+gitlab.com
+gitlab-static.net
+
 g.cn
 www.g.cn
 galend.com

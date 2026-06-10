@@ -187,6 +187,7 @@ class MetadataGenerator {
 
     const ruleConfigs = [
       { source: 'direct-domains.txt', type: 'domain-suffix', output: 'direct-domains.srs' },
+      { source: 'dns-direct-domains.txt', type: 'domain-suffix', output: 'dns-direct-domains.srs' },
       { source: 'direct-ips.txt', type: 'ip-cidr', output: 'direct-ips.srs' },
       { source: 'direct-process.txt', type: 'process-name', output: 'direct-process.srs' },
       { source: 'proxy-domains.txt', type: 'domain-suffix', output: 'proxy-domains.srs' },
@@ -327,6 +328,7 @@ class MetadataGenerator {
   getRuleDescription(filename) {
     const descriptions = {
       'direct-domains.txt': 'Direct connection domain rules',
+      'dns-direct-domains.txt': 'Real DNS resolution domain rules (dns_direct only)',
       'direct-ips.txt': 'Direct connection IP CIDR rules',
       'direct-process.txt': 'Direct connection process name rules',
       'proxy-domains.txt': 'Proxy connection domain rules',

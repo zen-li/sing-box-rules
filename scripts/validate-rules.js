@@ -171,6 +171,7 @@ class RuleValidator {
 
     const ruleConfigs = [
       { source: 'direct-domains.txt', type: 'domain-suffix' },
+      { source: 'dns-direct-domains.txt', type: 'domain-suffix' },
       { source: 'direct-ips.txt', type: 'ip-cidr' },
       { source: 'direct-process.txt', type: 'process-name' },
       { source: 'proxy-domains.txt', type: 'domain-suffix' },

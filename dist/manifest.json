@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-10T06:56:32.124Z",
+  "generated": "2026-06-10T07:22:58.764Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -17,6 +17,21 @@
       "checksum": "354e9be4",
       "lastModified": "2026-06-10T03:38:41.047Z",
       "description": "Direct connection domain rules"
+    },
+    {
+      "name": "dns-direct-domains",
+      "type": "domain-suffix",
+      "file": "dns-direct-domains.srs",
+      "size": 246,
+      "rules": {
+        "total": 6,
+        "valid": 6,
+        "invalid": 0,
+        "duplicate": 0
+      },
+      "checksum": "4269f195",
+      "lastModified": "2026-06-10T07:13:25.552Z",
+      "description": "Real DNS resolution domain rules (dns_direct only)"
     },
     {
       "name": "direct-ips",
@@ -52,15 +67,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 5114,
+      "size": 5220,
       "rules": {
-        "total": 379,
-        "valid": 379,
+        "total": 385,
+        "valid": 385,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "3a630c16",
-      "lastModified": "2026-06-07T09:35:51.575Z",
+      "checksum": "3db791e8",
+      "lastModified": "2026-06-10T07:13:25.538Z",
       "description": "Proxy connection domain rules"
     },
     {

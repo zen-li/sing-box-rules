@@ -14,6 +14,19 @@
       }
     },
     {
+      "file": "dns-direct-domains.txt",
+      "type": "domain-suffix",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total": 6,
+        "valid": 6,
+        "invalid": 0,
+        "duplicate": 0
+      }
+    },
+    {
       "file": "direct-ips.txt",
       "type": "ip-cidr",
       "valid": true,
@@ -46,8 +59,8 @@
       "errors": [],
       "warnings": [],
       "stats": {
-        "total": 379,
-        "valid": 379,
+        "total": 385,
+        "valid": 385,
         "invalid": 0,
         "duplicate": 0
       }
@@ -113,11 +126,11 @@
     }
   ],
   "summary": {
-    "total_files": 10,
-    "valid_files": 10,
+    "total_files": 11,
+    "valid_files": 11,
     "invalid_files": 0,
-    "total_rules": 908,
-    "valid_rules": 908,
+    "total_rules": 920,
+    "valid_rules": 920,
     "invalid_rules": 0
   }
 }

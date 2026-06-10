@@ -123,6 +123,7 @@ class RuleBuilder {
 
     const ruleConfigs = [
       { type: 'domain-suffix', source: 'direct-domains.txt', output: 'direct-domains.srs' },
+      { type: 'domain-suffix', source: 'dns-direct-domains.txt', output: 'dns-direct-domains.srs' },
       { type: 'ip-cidr', source: 'direct-ips.txt', output: 'direct-ips.srs' },
       { type: 'process-name', source: 'direct-process.txt', output: 'direct-process.srs' },
       { type: 'domain-suffix', source: 'proxy-domains.txt', output: 'proxy-domains.srs' },
