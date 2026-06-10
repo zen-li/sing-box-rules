@@ -1,0 +1,8 @@
+# DNS real-IP resolution (dns_direct) — route policy is separate (usually proxy)
+# Use for domains that must not use fakeip DNS (e.g. Git SSH needs real IPs)
+github.com
+githubusercontent.com
+githubassets.com
+git.io
+gitlab.com
+gitlab-static.net

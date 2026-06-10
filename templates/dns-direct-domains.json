@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rules": {
+    "domain_suffix": []
+  },
+  "description": "Domains requiring real DNS resolution (dns_direct), independent of route outbound",
+  "type": "domain_suffix"
+}
