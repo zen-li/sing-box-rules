@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-10T19:42:30.357Z",
+  "generated": "2026-06-11T03:30:09.530Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -22,15 +22,15 @@
       "name": "dns-direct-domains",
       "type": "domain-suffix",
       "file": "dns-direct-domains.srs",
-      "size": 246,
+      "size": 317,
       "rules": {
-        "total": 6,
-        "valid": 6,
+        "total": 13,
+        "valid": 13,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "4269f195",
-      "lastModified": "2026-06-10T07:13:25.552Z",
+      "checksum": "15a885cb",
+      "lastModified": "2026-06-11T03:11:22.193Z",
       "description": "Real DNS resolution domain rules (dns_direct only)"
     },
     {

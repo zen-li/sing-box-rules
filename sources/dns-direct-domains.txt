@@ -6,3 +6,11 @@ githubassets.com
 git.io
 gitlab.com
 gitlab-static.net
+
+qq.com
+qpic.cn
+qlogo.cn
+weixin.com
+tdnsv6.com
+dcloudstc.com
+qcloud.com
