@@ -410,6 +410,8 @@ demdex.net
 omtrdc.net
 
 posthog.com
+fontawesome.com
+bidr.io
 
 # 土耳其 Apple 礼品卡购买站点 oyunfor.com
 oyunfor.com
@@ -425,3 +427,12 @@ pkgs.tailscale.com
 
 
 asmrgay.com
+
+# 图片资源网站
+unsplash.com
+istockphoto.com
+pexels.com
+pixabay.com
+canva.com
+stocksnap.io
+buysellads.com
