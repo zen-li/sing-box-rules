@@ -80,6 +80,7 @@ volces.com
 moonshot.cn
 bigmodel.cn
 quark.cn
+api.minimaxi.com
 minimaxi.com
 minimax.chat
 7moor.com
@@ -139,3 +140,8 @@ douban.com
 mmstat.com
 tbcdn.cn
 taobaocdn.com
+
+# StellWeave
+stellweave.com
+stellweave.cn
+stellweave.net
