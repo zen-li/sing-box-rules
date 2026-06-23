@@ -145,3 +145,7 @@ taobaocdn.com
 stellweave.com
 stellweave.cn
 stellweave.net
+
+# 政府
+gov.cn
+mps.gov.cn
