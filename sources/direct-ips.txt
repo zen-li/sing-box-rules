@@ -10,6 +10,7 @@
 fd7a:115c:a1e0::/48
 169.254.0.0/16
 224.0.0.0/4
+# 240.0.0.0/4 — 勿用于 TUN route_exclude（sing-box auto_redirect nft 会报 file exists）
 240.0.0.0/4
 
 # IPv6 private networks (simplified for compatibility)
@@ -36,7 +37,7 @@ fd7a:115c:a1e0::/48
 163.181.66.0/24
 155.102.54.0/24
 
-# 政府
+# 政府 / 公安一网通办等（旁路由 TUN 绕过 + 路由直连）
 42.248.133.0/24
 36.112.20.0/24
 219.143.7.0/24

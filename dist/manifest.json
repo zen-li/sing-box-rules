@@ -1,51 +1,51 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-23T08:46:37.829Z",
+  "generated": "2026-06-23T10:16:13.388Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 2213,
+      "size": 2235,
       "rules": {
         "total": 131,
         "valid": 131,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "222d4c6",
-      "lastModified": "2026-06-23T08:36:32.978Z",
+      "checksum": "391a75e5",
+      "lastModified": "2026-06-23T10:14:14.051Z",
       "description": "Direct connection domain rules"
     },
     {
       "name": "dns-direct-domains",
       "type": "domain-suffix",
       "file": "dns-direct-domains.srs",
-      "size": 690,
+      "size": 832,
       "rules": {
-        "total": 38,
-        "valid": 38,
+        "total": 43,
+        "valid": 43,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "399ae3ab",
-      "lastModified": "2026-06-11T15:53:48.326Z",
+      "checksum": "22f94af1",
+      "lastModified": "2026-06-23T09:09:01.607Z",
       "description": "Real DNS resolution domain rules (dns_direct only)"
     },
     {
       "name": "direct-ips",
       "type": "ip-cidr",
       "file": "direct-ips.srs",
-      "size": 879,
+      "size": 1041,
       "rules": {
         "total": 27,
         "valid": 27,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "32598f21",
-      "lastModified": "2026-06-23T08:46:33.273Z",
+      "checksum": "6b7ef4fa",
+      "lastModified": "2026-06-23T10:01:42.774Z",
       "description": "Direct connection IP CIDR rules"
     },
     {

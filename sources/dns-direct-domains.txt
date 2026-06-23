@@ -41,3 +41,10 @@ douyinpic.com
 douyincdn.com
 snssdk.com
 byteimg.com
+
+# 政府 / 政务 App（与 direct-domains.txt 同步，DNS 最高优先级）
+mps.gov.cn
+ywtb.mps.gov.cn
+beian.mps.gov.cn
+www.gov.cn
+gov.cn
