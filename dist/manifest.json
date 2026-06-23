@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-23T08:39:17.739Z",
+  "generated": "2026-06-23T08:46:37.829Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -37,15 +37,15 @@
       "name": "direct-ips",
       "type": "ip-cidr",
       "file": "direct-ips.srs",
-      "size": 847,
+      "size": 879,
       "rules": {
-        "total": 25,
-        "valid": 25,
+        "total": 27,
+        "valid": 27,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "45e60550",
-      "lastModified": "2026-06-23T08:38:28.563Z",
+      "checksum": "32598f21",
+      "lastModified": "2026-06-23T08:46:33.273Z",
       "description": "Direct connection IP CIDR rules"
     },
     {
