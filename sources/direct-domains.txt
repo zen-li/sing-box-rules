@@ -148,5 +148,6 @@ stellweave.net
 
 # 政府
 ywtb.mps.gov.cn
+beian.mps.gov.cn
 mps.gov.cn
 gov.cn
