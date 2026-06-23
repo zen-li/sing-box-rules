@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "generated": "2026-06-23T08:32:41.026Z",
+  "generated": "2026-06-23T08:37:18.214Z",
   "repository": {
     "url": "git@github.com:zen-li/sing-box-rules.git",
     "branch": "main",
-    "commit": "5380cfeb1b84984ae83af5d7c9af19e7163630d9",
-    "commitTime": "2026-06-23T16:30:33+08:00",
+    "commit": "1f24b8355f63185b33724484a421263f7bfc6177",
+    "commitTime": "2026-06-23T16:32:41+08:00",
     "isDirty": true
   },
   "rules": {
@@ -14,15 +14,15 @@
         "file": "direct-domains.txt",
         "type": "domain-suffix",
         "exists": true,
-        "size": 2183,
-        "lastModified": "2026-06-23T08:32:34.159Z",
+        "size": 2213,
+        "lastModified": "2026-06-23T08:36:32.978Z",
         "rules": {
-          "total": 129,
-          "valid": 129,
+          "total": 131,
+          "valid": 131,
           "invalid": 0,
           "duplicate": 0
         },
-        "checksum": "17dc5b56",
+        "checksum": "222d4c6",
         "output": "direct-domains.srs"
       },
       {
@@ -44,15 +44,15 @@
         "file": "direct-ips.txt",
         "type": "ip-cidr",
         "exists": true,
-        "size": 792,
-        "lastModified": "2026-06-10T08:04:40.570Z",
+        "size": 832,
+        "lastModified": "2026-06-23T08:37:14.121Z",
         "rules": {
-          "total": 22,
-          "valid": 22,
+          "total": 24,
+          "valid": 24,
           "invalid": 0,
           "duplicate": 0
         },
-        "checksum": "5e25c090",
+        "checksum": "555d2904",
         "output": "direct-ips.srs"
       },
       {
@@ -135,32 +135,32 @@
       {
         "file": "direct-domains.srs",
         "exists": true,
-        "size": 988,
-        "lastModified": "2026-06-23T08:32:40.673Z",
-        "checksum": "14f28b09",
+        "size": 1012,
+        "lastModified": "2026-06-23T08:37:17.866Z",
+        "checksum": "29051a9e",
         "source": "direct-domains.txt"
       },
       {
         "file": "dns-direct-domains.srs",
         "exists": true,
         "size": 341,
-        "lastModified": "2026-06-23T08:32:40.693Z",
+        "lastModified": "2026-06-23T08:37:17.884Z",
         "checksum": "1ba21841",
         "source": "dns-direct-domains.txt"
       },
       {
         "file": "direct-ips.srs",
         "exists": true,
-        "size": 184,
-        "lastModified": "2026-06-23T08:32:40.709Z",
-        "checksum": "33b913a0",
+        "size": 197,
+        "lastModified": "2026-06-23T08:37:17.903Z",
+        "checksum": "49d5431",
         "source": "direct-ips.txt"
       },
       {
         "file": "direct-process.srs",
         "exists": true,
         "size": 117,
-        "lastModified": "2026-06-23T08:32:40.724Z",
+        "lastModified": "2026-06-23T08:37:17.918Z",
         "checksum": "7c3f8cc7",
         "source": "direct-process.txt"
       },
@@ -168,7 +168,7 @@
         "file": "proxy-domains.srs",
         "exists": true,
         "size": 3043,
-        "lastModified": "2026-06-23T08:32:40.759Z",
+        "lastModified": "2026-06-23T08:37:17.935Z",
         "checksum": "5617ab81",
         "source": "proxy-domains.txt"
       },
@@ -176,7 +176,7 @@
         "file": "proxy-domains-private.srs",
         "exists": true,
         "size": 1690,
-        "lastModified": "2026-06-23T08:32:40.785Z",
+        "lastModified": "2026-06-23T08:37:17.952Z",
         "checksum": "79557460",
         "source": "proxy-domains-private.txt"
       },
@@ -184,7 +184,7 @@
         "file": "proxy-ips.srs",
         "exists": true,
         "size": 671,
-        "lastModified": "2026-06-23T08:32:40.802Z",
+        "lastModified": "2026-06-23T08:37:17.968Z",
         "checksum": "48a75185",
         "source": "proxy-ips.txt"
       },
@@ -192,7 +192,7 @@
         "file": "proxy-process.srs",
         "exists": true,
         "size": 67,
-        "lastModified": "2026-06-23T08:32:40.818Z",
+        "lastModified": "2026-06-23T08:37:17.983Z",
         "checksum": "147e6da8",
         "source": "proxy-process.txt"
       }
@@ -200,8 +200,8 @@
     "summary": {
       "totalSourceFiles": 8,
       "validSourceFiles": 8,
-      "totalRules": 1003,
-      "validRules": 1003,
+      "totalRules": 1007,
+      "validRules": 1007,
       "builtFiles": 8
     }
   },

@@ -1,21 +1,21 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-23T08:32:41.026Z",
+  "generated": "2026-06-23T08:37:18.214Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 2183,
+      "size": 2213,
       "rules": {
-        "total": 129,
-        "valid": 129,
+        "total": 131,
+        "valid": 131,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "17dc5b56",
-      "lastModified": "2026-06-23T08:32:34.159Z",
+      "checksum": "222d4c6",
+      "lastModified": "2026-06-23T08:36:32.978Z",
       "description": "Direct connection domain rules"
     },
     {
@@ -37,15 +37,15 @@
       "name": "direct-ips",
       "type": "ip-cidr",
       "file": "direct-ips.srs",
-      "size": 792,
+      "size": 832,
       "rules": {
-        "total": 22,
-        "valid": 22,
+        "total": 24,
+        "valid": 24,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "5e25c090",
-      "lastModified": "2026-06-10T08:04:40.570Z",
+      "checksum": "555d2904",
+      "lastModified": "2026-06-23T08:37:14.121Z",
       "description": "Direct connection IP CIDR rules"
     },
     {
