@@ -67,6 +67,8 @@ cdn-telegram.org
 cdninstagram.com
 claude.ai
 cloudflare.com
+dash.cloudflare.com
+platform.dash.cloudflare.com
 cloudflareinsights.com
 cloudfoundry.org
 cloudmos.io

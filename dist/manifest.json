@@ -1,7 +1,7 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-23T10:16:13.388Z",
+  "generated": "2026-06-24T12:23:49.371Z",
   "rules": [
     {
       "name": "direct-domains",
@@ -15,7 +15,7 @@
         "duplicate": 0
       },
       "checksum": "391a75e5",
-      "lastModified": "2026-06-23T10:14:14.051Z",
+      "lastModified": "2026-06-24T11:53:20.729Z",
       "description": "Direct connection domain rules"
     },
     {
@@ -30,7 +30,7 @@
         "duplicate": 0
       },
       "checksum": "22f94af1",
-      "lastModified": "2026-06-23T09:09:01.607Z",
+      "lastModified": "2026-06-24T11:53:20.729Z",
       "description": "Real DNS resolution domain rules (dns_direct only)"
     },
     {
@@ -45,7 +45,7 @@
         "duplicate": 0
       },
       "checksum": "6b7ef4fa",
-      "lastModified": "2026-06-23T10:01:42.774Z",
+      "lastModified": "2026-06-24T11:53:20.729Z",
       "description": "Direct connection IP CIDR rules"
     },
     {
@@ -67,15 +67,15 @@
       "name": "proxy-domains",
       "type": "domain-suffix",
       "file": "proxy-domains.srs",
-      "size": 5692,
+      "size": 5741,
       "rules": {
-        "total": 412,
-        "valid": 412,
+        "total": 414,
+        "valid": 414,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "374aab5a",
-      "lastModified": "2026-06-22T15:51:45.605Z",
+      "checksum": "cc0def5",
+      "lastModified": "2026-06-24T12:23:38.361Z",
       "description": "Proxy connection domain rules"
     },
     {
