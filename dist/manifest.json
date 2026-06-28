@@ -1,21 +1,21 @@
 {
   "format": "sing-box-rule-set-manifest",
   "version": "1.0",
-  "generated": "2026-06-26T18:39:00.437Z",
+  "generated": "2026-06-28T05:08:43.962Z",
   "rules": [
     {
       "name": "direct-domains",
       "type": "domain-suffix",
       "file": "direct-domains.srs",
-      "size": 2235,
+      "size": 2257,
       "rules": {
-        "total": 131,
-        "valid": 131,
+        "total": 132,
+        "valid": 132,
         "invalid": 0,
         "duplicate": 0
       },
-      "checksum": "391a75e5",
-      "lastModified": "2026-06-24T11:53:20.729Z",
+      "checksum": "4d2bf028",
+      "lastModified": "2026-06-28T05:08:35.553Z",
       "description": "Direct connection domain rules"
     },
     {

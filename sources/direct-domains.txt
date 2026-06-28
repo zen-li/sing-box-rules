@@ -74,6 +74,7 @@ oss-cn.aliyuncs.com
 zhihu.com
 acfun.cn
 ksapisrv.com
+hif-dliq.deepseek.com
 deepseek.com
 volces.com
 moonshot.cn
