@@ -157,5 +157,8 @@ gov.cn
 
 # HY2/VPS
 sdmgr.huluti.com
+laxmgr.huluti.com
+gh.laxmgr.huluti.com
+lahy.huluti.com
 
 
