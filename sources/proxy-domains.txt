@@ -380,6 +380,9 @@ wikimedia.org
 wikipedia.org
 deepwiki.com
 static.cloudflareinsights.com
+geolocation.onetrust.com
+onetrust.com
+cookielaw.org
 auth.x.ai
 accounts.x.ai
 x.ai
